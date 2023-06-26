@@ -1,3 +1,3 @@
 # Tips on using GCP, Hail, and Hail Batch
 
-[Tips for GCP](./gcp.md)
+Command line tips for using GCP: [Tips for GCP](./gcp.md)
