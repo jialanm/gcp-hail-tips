@@ -6,6 +6,7 @@ python3 myscript.py
 Hail Batch setup in Python script:
 (Note: the backend `regions` is normally set to `["us-central1"]`)
 ```
+import hailtop.batch as hb
 backend = hb.ServiceBackend(billing_project=your-billing-project,
                                 remote_tmpdir=your-cloud-directory,
                                 regions=cloud-region)
