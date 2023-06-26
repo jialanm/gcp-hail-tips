@@ -10,7 +10,7 @@ backend = hb.ServiceBackend(billing_project=your-billing-project,
                                 remote_tmpdir=your-cloud-directory,
                                 regions=cloud-region)
 
-batch = hb.Batch(backend=backend, name=DEFAULT_BATCH_NAME,
+batch = hb.Batch(backend=backend, name=your-batch-name,
                  default_image=your-Docker-image,  
                  default_cpu=request-cpu,
                  default_memory=request-memory)
